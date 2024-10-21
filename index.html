@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>ChatBot</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="icon" type="image/png" href="condition/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+	
+	<div class="chatBot">
+		<header>
+			<h2>ChatBot</h2>
+			<span alt="Close"
+				id="cross"
+				onclick="newChat()">New Chat</span>
+		</header>
+		<ul class="chatbox">
+			<li class="chat-incoming chat">
+				<p>Hey! How can I assist you today?</p>
+			</li>
+			<!-- <li class="chat-outgoing chat">
+				<p></p>
+			</li> -->
+		</ul>
+		<!-- <div class="loading-animation">Loading...</div> -->
+		<div class="chat-input">
+			<textarea rows="1" cols="17"
+					placeholder="Enter a message..."></textarea>
+			<button id="sendBTN">Send</button>
+		</div>
+	</div>
+	<script src="script.js" defer></script>
+</body>
+
+</html>
